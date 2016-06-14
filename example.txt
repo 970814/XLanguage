@@ -1,0 +1,12 @@
+do(9){do (i){print i,echo *,print j,echo =,print i*j,j=j+1,echo ---};echoln |;i=i+1;j=1}
+do(100){sum=sum+i;i=i+1;}
+
+
+
+//~(e*3.0%*pi) aqrt ((~ sqrt ((sqrt(- -sqrt(~(~345*(45.0+21.0)/8.8)+(~sqrt 3.%-.12^44.12%))/3*~4.0^2.))+.123)!+pi ^ ~e)^2)^e*pi%
+//~(e¡Á3.0%¡Á¦Ð):((~¡Ì((¡Ì(~¡Ì(~(~345¡Á(45.0+21.0)¡Â8.8)+(~¡Ì3.%-.12^44.12%))¡Â3¡Á~4.0^2.))+.123)!+¦Ð^~e)^2)^e¡Á¦Ð%
+//negative (E multiply (3.0%*PI)) apoo {(negative sqrt ((sqrt(~¡Ì(~(negative(345.)multiply(45.0 add 21.0) divide 8.8)+(~ sqrt 3.% subtract .12 power 44.12%))/3 multiply 4.0^2.)) add .123)!+PI^~E)^2) power E mul PI%
+//negative (E^2+71 sub 5.0)apoo sqrt (5.0 divide 0.9 multiply sqrt((7.83 subtract (1.87 add 15.15)%) divide ~11.8)% multiply PI divide (sqrt (E*2.8^2.1))%)
+//sqrt ( negative 25 modulo 5.0 + 7 power 8 divide ~2.5 )
+//
+(3.5) aqrt(((0.154 * e) aqrt pi-negative(sqrt( ln(e^3.0) + log(4.5*pi) + sin(20^40.0%) * tan (45.0) / arcsin (0.6) - (cos(7.0-80/3.0*e) + arctan 1.0) * +(2.87 + pi) power 3.5 + (sqrt (( ln( arccos (0.4))) )%)!))) modulo (log (e pow (pi))))
