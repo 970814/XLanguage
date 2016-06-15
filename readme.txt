@@ -1,43 +1,49 @@
-﻿关于Moon的特点:
-1.编译性,高效性,解释性,.
-Moon先使用一个语法分析器,对代码进行分析,然后生成一些字节码,在使用语义分析器进行分析,
-从上下文环境中推断是否如该变量是否存在,是否合法,是否该出现,使用一种贪心法的方式来处理,
-在通过一个管理器,对生成的代码进行管理,存放在一种比较奇怪的数据结构中,成为代码集合,存放在
-一个函数中,最后该函数可以被解释器直接进行解释,所以高效率,
-2.易学性.
-有丰富的内置运算符,你也可以把它当作计算器来编程,
-3.庞大的标准库,
-我们的团队开发了大量的编程接口,不用你自己造轮子,只需要导入标准库文件即可,当然
-也可使用第三方标准库.
-
-为什么要使用Moon?
-答:Moon是一种新出现的编程语言,结合了许多编程语言的特性,
-如:
-1.c++的传引用调用,
-2.c语言的函数指针,
-3.支持可变参数函数的定义,
-4.支持使用函数库的导入,Moon有一个强大的类库,不用你在自己造轮子,
-让你脱离码农的身份.
-5.并且含有丰富的可直接使用的傻瓜式编程的运算符,如下面这条运算符.
-
-(3.5) aqrt(((0.154 * e) aqrt pi-negative(sqrt( ln(e^3.0) + log(4.5*pi) + sin(20^40.0%) * tan (45.0) / arcsin (0.6) - (cos(7.0-80/3.0*e) + arctan 1.0) * +(2.87 + pi) power 3.5 + (sqrt (( ln( arccos (0.4))) )%)!))) modulo (log (e pow (pi))))
-
-6.且使用Moon(1.0.0.1)以上版本,支持可视化运行函数,
-可选择性执行任意函数,运行时查看函数指令.
-7.Moon还不但集成了Moon编译器,还集成了Moon解释器,让你随时进行解释,
-有利于各种码农尽快熟悉编程,不仅仅是对该语言的使用,更加深刻理解如何进行编程,
-8.函数式编程,让代码更加可读,s文件通常存放函数原型也称接口,moon文件存放具体实现细节.
-9.支持多文件的编译,以及等等.
-10.也支持文件IO,等等.
-11.程序员如果能精通Moon语言来进行编程,那么该程序员将能很快轻松理解其他语言的编程,
-java,c++,c,python,bat等.
+﻿note:
+Moon is a compiler;
+Inter is the interpreter (two versions);
+MoonIDE integrate them together;
 
 
-欢迎使用Moon(1.0.0.1)!
-感谢您的支持!
-虽然我们刚刚起步,
-但我们是一个庞大的团队!
-请联系我们的CEO: 刘先生; 
-邮箱1: 1421053434@qq.com.
-邮箱2: lxs1421053434@gmail.com. 
-访问地址: https://github.com/VerySmallMoon/MOON.
+About Moon features:
+1. Compile, efficiency, interpretability.
+Moon first use a parser, analyze the code, and then generate some bytecode, using semantic analyzer for analysis,
+Inferred from the context, such as whether the variable exists and is legitimate, whether that occurs, the method uses a greedy approach to deal with,
+By a manager, the generated code is managed, stored in a relatively strange data structure becomes set of codes stored in
+A function, and finally the function can be interpreted directly to explain, so high efficiency,
+2. learnability.
+Has a wealth of built-in operators, you can also use it as a calculator programmed,
+3. The large standard library
+Our team has developed a number of programming interfaces, do not make your own wheels, you only need to import the standard library file can, of course,
+You can also use a third-party standard library.
+
+Why use Moon?
+A: Moon is an emerging programming language that combines many of the features of programming languages,
+Such as:
+1.c ++ The call by reference,
+2.c language function pointer,
+3. Supports the definition of a variable parameter of the function,
+4. Support using the import library, Moon has a powerful library, do not you make yourself at the wheel,
+Let you from identity code farmers.
+5. The rich and can be used directly fool programming operators, such as the following this operator.
+
+(3.5) aqrt (((0.154 * e) aqrt pi-negative (sqrt (ln (e ^ 3.0) + log (4.5 * pi) + sin (20 ^ 40.0%) * tan (45.0) / arcsin (0.6) - (cos (7.0-80 / 3.0 * e) + arctan 1.0) * + (2.87 + pi) power 3.5 + (sqrt ((ln (arccos (0.4))))%)!))) modulo (log (e pow (PI))))
+
+6. and using Moon (1.0.0.1) or later, supports visual function operation,
+Selectively perform any function to run when viewing function instruction.
+7.Moon but not integrated Moon compiler also integrates Moon interpreter, so you always explain,
+Conducive to all kinds of farming familiar with programming code as soon as possible, not just the use of language, a deeper understanding of how to program,
+8. Functional programming, make the code more readable, s files are typically stored function prototype, also known as the interface, moon files stored specific implementation details.
+9. Support multi-file compilation, and so on.
+10. also supports file IO, and so on.
+11. If you can programmer proficient Moon language to program, then the programmer will soon be able to easily understand other programming languages,
+java, c ++, c, python, bat like.
+
+
+Welcome to the Moon (1.0.0.1)!
+thank you for your support!
+Although we have just started,
+But we are a large team!
+Please contact our CEO: Liu;
+E-mail 1: 1421053434@qq.com.
+E-mail 2: lxs1421053434@gmail.com.
+Access Address: https://github.com/VerySmallMoon/MOON.
