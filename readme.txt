@@ -1,8 +1,11 @@
 ﻿note:
-Moon is a compiler;
-Inter is the interpreter (two versions);
-MoonIDE integrate them together;
+1.Moon is a compiler;
+2.Inter the interpreter (two versions);
+3.MoonIDE integrate them together;
 
+4.workspace: temporary storage of some use Moon programming language source code;
+5.mre: the Moon language standard library;
+6. Your best java version 1.8 or later;
 
 About Moon features:
 1. Compile, efficiency, interpretability.
