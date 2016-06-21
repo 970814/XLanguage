@@ -178,6 +178,12 @@ public class Cal extends Operator {
             }
 //            JOptionPane.showMessageDialog(null, "right: " + r);
         }
+//        switch (operator) {
+//            case And:
+//                return new Data(left.getValue() == 0 ? 0 : r.getValue() == 0 ? 0 : 1);
+//            case Or:
+//                return new Data(left.getValue() != 0 ? 1 : r.getValue() != 0 ? 1 : 0);
+//        }
         double right = r.getValue();
         if (isVarOperator(operator)) {
             switch (operator) {

@@ -102,7 +102,7 @@ public interface BaseDataConstant {
 
 	String operators = "+-*/^%~!()[]&:|><=, ";
 	String[][] constantName = new String[][]{{/* "E", */"e",},
-			{/* "PI", */"pi",},};
+			{/* "PI", */"pi",}};
 
 	double[] constantValue = new double[]{Math.E, Math.PI};
 }

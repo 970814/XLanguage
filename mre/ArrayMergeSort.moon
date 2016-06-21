@@ -32,12 +32,12 @@ merge: {
     new i = fromIndex0;
     new j = fromIndex2;
     while (i < fromIndex2 && j < toIndex) {
-		if(*cmp(array[i], array[j])){
-			temp[k] = array[j];
-			++j;
-		}else{
+		if(*cmp(array[j], array[i])){
 			temp[k] = array[i];
 			++i;
+		}else{
+			temp[k] = array[j];
+			++j;
 		}
 		++k;
     }

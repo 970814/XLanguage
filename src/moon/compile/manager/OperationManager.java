@@ -81,7 +81,7 @@ public class OperationManager {
 
             }
         } catch (FileNotFoundException e) {
-            File file = new File("xre", src.getName());
+            File file = new File("mre", src.getName());
             if (!file.exists()) {
                 throw new FileNotFoundException("cannot find the file: \'" + file.getCanonicalPath() + "\'");
             } else {

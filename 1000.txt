@@ -1,0 +1,34 @@
+For the first compile cost time  1.21, 
+test array size  1000.0, 
+Sort start
+The Best   
+ 1 Time of BubbleSort Cost  5.25, 
+ 2 Time of SelectionSort Cost  4.64, 
+ 3 Time of InsertionSort Cost  0.02000000000000135, 
+ 4 Time of QuickSort Cost  31.160000000000004, 
+ 5 Time of MergeSort Cost  0.14999999999999858, 
+ 6 Time of NewMergeSort Cost  0.1700000000000017, 
+
+
+Sort start
+The Random   
+ 1 Time of BubbleSort Cost  8.469999999999999, 
+ 2 Time of SelectionSort Cost  5.939999999999998, 
+ 3 Time of InsertionSort Cost  3.960000000000001, 
+ 4 Time of QuickSort Cost  0.22999999999999687, 
+ 5 Time of MergeSort Cost  0.21999999999999886, 
+ 6 Time of NewMergeSort Cost  0.21999999999999886, 
+
+
+Sort start
+The Worst   
+ 1 Time of BubbleSort Cost  12.07, 
+ 2 Time of SelectionSort Cost  7.560000000000002, 
+ 3 Time of InsertionSort Cost  9.379999999999995, 
+ 4 Time of QuickSort Cost  49.16000000000001, 
+ 5 Time of MergeSort Cost  0.23999999999998067, 
+ 6 Time of NewMergeSort Cost  0.20000000000001705, 
+
+
+ Run this program cost time  
+return -> 140.62
