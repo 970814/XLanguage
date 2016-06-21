@@ -1,0 +1,3 @@
+ array size 1.0E7, 
+ cost 2273.49, 
+return -> 7929.76
